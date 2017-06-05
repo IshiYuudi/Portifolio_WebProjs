@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="css/estilo.css">
+        <script type="text/javascript" src="js/TicTacToe.js"></script>
+		<title>JOGO DA VELHA</title>
+	</head>
+	<body>
+		<section>
+			<header>
+				<div id="header">
+					<div id="head-text">
+						<a href="../../index.html">&nbsp; Home</a> <strong>&nbsp; > &nbsp; PLAY &nbsp;</strong>
+					</div>
+				</div>
+			</header>
+				
+				<nav class="menuHorizontal"> 
+					<ul class="ulHorizontal">
+							<li class="liHorizontal"><a href="regras.html"><b>Regras</b></a></li>
+							<li class="liHorizontal"><a href="jogue.html"><b>Play</b></a></li>
+							<li class="liHorizontal"><a href="../../index.html"><b>Voltar</b></a></li>
+					</ul>
+				</nav>
+				
+				<nav class="menuVertical"> 
+					<ul class="ulVertical">
+							<li class="liVertical"><a href="http://mundoestranho.abril.com.br/historia/qual-e-a-origem-do-jogo-da-velha/" target="_blank">Curiosidades</a></li>
+							<li class="liVertical"><a href="https://pt.wikipedia.org/wiki/Jogo_da_velha" target="_blank">Wiki</a></li>
+							<li class="liVertical"><a href="https://www.google.com.br/?gws_rd=cr&ei=K4q9WO-PJYWMwgSl_IjoBg#q=Jogo+da+Velha+&*" target="_blank">Google Tic-Tac-Toe</a></li>
+					</ul>
+				</nav>
+				
+				<article>
+					<h2>Tic-Tac-Toe</h2>
+
+					<p class="intro">
+						<strong>Jogador 1 - "X"</stong>
+						||
+						<strong>Jogador 2 - "O"</strong>
+					</p>
+					
+						<form name="velha" class="jogo" method="post">
+						<input type="button" name="sqr1" class="campo" onclick="rodada(this);">
+						<input type="button" name="sqr2" class="campo" onclick="rodada(this);">
+						<input type="button" name="sqr3" class="campo" onclick="rodada(this);">
+						<br>
+						<input type="button" name="sqr4" class="campo" onclick="rodada(this);">
+						<input type="button" name="sqr5" class="campo" onclick="rodada(this);">
+						<input type="button" name="sqr6" class="campo" onclick="rodada(this);">
+						<br>
+						<input type="button" name="sqr7" class="campo" onclick="rodada(this);">
+						<input type="button" name="sqr8" class="campo" onclick="rodada(this);">
+						<input type="button" name="sqr9" class="campo" onclick="rodada(this);">
+						</form>
+					<script type="text/javascript">
+						reset();
+					</script>
+				</article>
+
+				<footer><small><i><a href="../../index.html">Jogo da Velha.</a> 2017.</i></small></footer>
+				
+		</section>
+	</body>
+</html>
