@@ -1,0 +1,135 @@
+body{
+	background-image: url("../img/background.jpg");
+	background-repeat: no-repeat;
+}
+section{
+	width:1024px;
+	height: 800px;
+	margin: 0 auto;
+}
+header{
+	width: 1024px;
+	height: 160px;
+	background-image:url("../img/topo.png");
+}
+header a:link, a:hover, a:visited{
+	text-decoration: none;
+}
+nav{
+    width: 40px;
+	height: 980px;
+	background-color:#ff9000;
+	float: left;
+}
+article{
+	width: 769px;
+    height: 470px;
+    float: right;
+    padding: 30px;
+	background-image: url("../img/back-opacity.png");
+}
+footer{
+	width: 1024px;
+	height: 50px;
+	background-color: #ff9000;
+	clear: both;
+	text-align: center;
+	color: white;
+}
+footer a:link, a:hover, a:visited{
+	text-decoration:none;
+}
+a{
+	text-align: left;
+	font-family: Verdana, Arial;
+	font-size: 15px;
+	text-decoration: none;
+}
+/*Menu Horizontal */
+.menuHorizontal {
+	width:1024px;
+	height:45px;
+	margin: 0 auto;	
+}
+.menuHorizontal ul li{
+	margin-left:-40px;
+}
+.menuHorizontal ul li{
+	display: block;
+	float:right;
+	min-width: 80px;
+	text-align: center;
+	list-style-type:none;
+	color:#ffffff;
+	text-decoration:none;
+	margin: 0 auto;
+}
+.menuHorizontal a:link,a:hover,a:visited{
+	color:#ffffff;
+	text-decoration:none;
+}
+.liHorizontal a:hover{
+background-color:#651008;
+}
+/*Menu Vertical*/
+.menuVertical {
+	min-width:195px;
+	height:530px;
+	margin: 0 auto;
+	background-color:#651008;	
+}
+.menuVertical ul li{
+	list-style-image: url('../img/icon.png');
+	list-style-position:inside;
+	color:#ffffff;
+	text-decoration:none;
+}
+.menuVertical a:link,a:hover,a:visited{
+	color:#ffffff;
+	text-decoration:none;
+}
+.menuVertical li{
+	margin-left: 35px;
+	padding-top:10px;
+	padding-left:15px;
+	margin: 0 auto;
+}
+.liVertical a:hover{
+	background-color:#ff9000;
+	cursor:pointer;
+}
+.menuVertical ul{
+	margin-left: -40px;
+}
+/*Header*/
+#header {
+    position: relative;
+    min-height: 160px;
+}
+#head-text{
+	position: absolute;
+    bottom: 0;
+    left: 0;
+	background-color: #ff9000;
+	color: white;
+}
+/*Article*/
+p{ 
+	text-align: left;
+	font-family: Verdana, Arial;
+	font-size: 14px;
+	text-decoration: none;
+}
+h2{
+	text-align: left;
+	font-family: Verdana, Arial;
+	font-size: 24px;
+	text-decoration: none;
+}
+video{
+	display: block;
+	margin: 0 auto;
+}
+.intro{
+	text-align: center;
+}
